@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7588110689614056081}
   - component: {fileID: 32487921829810143}
   - component: {fileID: 531500835884203230}
+  - component: {fileID: 9024447480762638191}
   m_Layer: 0
   m_Name: Horse_Black
   m_TagString: Untagged
@@ -87,7 +88,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b2619c31ee90441861e67435299af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 40
+  speed: 10
 --- !u!65 &531500835884203230
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -109,6 +110,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.071062, y: 37.536835, z: 43.98667}
   m_Center: {x: 0.11710644, y: 18.268412, z: 4.57603}
+--- !u!114 &9024447480762638191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162971245104640396}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594985d9205711d4cb2d5de5e7ce6f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &212025563303729726
 GameObject:
   m_ObjectHideFlags: 0

@@ -2559,6 +2559,7 @@ GameObject:
   - component: {fileID: 6672960105210532302}
   - component: {fileID: 1800570924291718401}
   - component: {fileID: 586195956502008229}
+  - component: {fileID: 3254385008988642849}
   m_Layer: 0
   m_Name: Dog_Beagle
   m_TagString: Untagged
@@ -2664,7 +2665,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42b2619c31ee90441861e67435299af0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MoveForward
-  speed: 60
+  speed: 10
 --- !u!65 &586195956502008229
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2686,6 +2687,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.07553117, y: 0.19879842, z: 0.26244435}
   m_Center: {x: 0.000101327896, y: 0.09650332, z: 0.031893652}
+--- !u!114 &3254385008988642849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3940785950540920276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594985d9205711d4cb2d5de5e7ce6f25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectCollisions
 --- !u!1 &4034152926039338024
 GameObject:
   m_ObjectHideFlags: 0
